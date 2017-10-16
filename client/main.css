@@ -1,0 +1,112 @@
+/* CSS declarations go here */
+/*Header Page*/
+.site-logo {
+    margin-top: -30px;
+}
+.site-logo img{
+    height: 80px;
+}
+
+#navbar1 .navbar-nav li{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #212a36;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+
+#navbar1 .navbar-nav li a{
+    background: #fff;
+    padding: 0px;
+    margin: 15px 15px 3px 15px;
+}
+
+#navbar1 .navbar-nav li a:hover{
+    color: #8DCF3F;
+    border-bottom: 2px solid #8DCF3F;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #8DCF3F;
+}
+
+
+.navbar-default .navbar-toggle {
+    margin-top: 4px;
+    margin-right: 0;
+    margin-bottom: 4px;
+    padding: 9px 0 9px 10px;
+    border: none;
+    background: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: none;
+}
+/*Header Page end*/
+/*Home.jsx*/
+.coin-home {
+    background: #fff;
+    margin-top: 30px;
+    min-height: 600px;
+}
+
+.coin-home .table {
+    font-size: 14.5px;
+}
+
+.coin-home .add-coin {
+    width: 100%;
+}
+.wrapper-pagination {
+    width: 100%;
+    text-align: center;
+}
+
+.td-holding input {
+    width: 40%;
+}
+
+.td-holding button {
+    padding-left: 5%;
+}
+
+.table-header {
+    padding: 20px 0px;
+}
+
+.table-header h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price-field {
+    padding-left: 61px;
+    padding-bottom: 40px;
+}
+
+.price-field button {
+    padding-top: 4px;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #fff !important;
+    background-color: #337ab7 !important;
+}
+
+/*end*/
+
+/*About Page*/
+.about-page {
+    margin-top: 30px;
+    padding-top: 30px;
+    background: #fff;
+    min-height: 630px;
+}
+/*end*/
+
+/*Feedback Page*/
+.feedback-page {
+    padding-top: 30px;
+}
+/*Feedback Page end*/

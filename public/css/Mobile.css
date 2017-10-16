@@ -1,0 +1,91 @@
+/*============================================
+
+	Author: Liam Moreno
+	CreatedAt: 2017-8-14
+
+==============================================*/
+/* Mobile Styling */
+
+@media only screen and (max-device-width: 736px) {
+	#navbar1 {
+		margin-top: 5px;
+	}
+
+	.site-logo {
+		margin-top: -20px;
+	}
+	.site-logo img {
+		height: 60px;
+	}
+
+	.coin-home {
+		margin-top: 2px;
+		padding-top: 25px;
+	}
+
+	.coin-home .row {
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+
+	.coin-home .crypto-title {
+		paddint-top: 5px;
+		margin-top: 20px;
+		font-size: 17px;
+		color: #212a36;
+		font-weight: bold;
+	}
+
+	.coin-home .crypto-value {
+		font-size: 25px;
+		color: #212a36;
+		font-weight: bold;
+	}
+
+	.coin-home input{
+		width: 50%;
+		margin-right: 10px;
+	}
+
+	.coin-home .close {
+		float: initial;
+	}
+
+	.span-holding {
+		padding-right: 25px;
+	}
+
+	.mob-remove {
+		padding-left: 12px !important;
+		margin-right: -5px;
+	}
+
+	.mob-edit {
+		padding-left: 5px !important;
+	}
+
+	.mob-mktvalue {
+		padding-right: 25px;
+	}
+
+	.price-field {
+		margin-top: 20px;
+		padding-left: 30px !important;
+	}
+
+	.copyright h5 p {
+		font-size: 12px;
+	}
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+	.coin-home .crypto-market {
+		font-size: 25px;
+		text-align: center;
+		color: #212a36;
+		margin-top: 20px;
+	}
+}
